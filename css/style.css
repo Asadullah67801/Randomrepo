@@ -1,253 +1,43 @@
 *{
     margin:0px;
     padding: 0px;
-
 }
-.nav-top-right{
-    float: right;
-    padding-right: 60px;
-}
-.nav-top-right ul li{
-    display: inline-block;
-    margin: 15px;
-    color: #922121;
-    font-family: sans-serif;
-    font-size: 12px;
-}
-
-.nav-middle{
+nav{
     display: flex;
     justify-content: space-between;
-
- 
-    padding-top: 30px;
     align-items: center;
-    margin: auto;
-    width: 100%;
-}.row{
-    display: flex;
-   
-}
-.flex{
-    display: flex;
-}
-
-.contain {
-    width: 400px;
-}
-.banner{
-    background-color: #922121;
-    color: white;
-
-    text-align: center;
-}
-.card img{
-    height: 300px;
-    width: 400px;
-}
-
-.card-container{
-    padding: 100px 0;
-}
-.card{
-    margin: 20px;
-background-color: azure;
-
-}
-.card{
-    margin-;
-   
- 
- 
-}
-.card p{
-    margin-top: 10px;
+}nav img {
+    width:150px;
+    margin: 0 20px;;
 }
 .right{
-    margin-left: 10px;
-}
-.contain{
-    background-color: #922121;
+    background-color: black;
     color: white;
-    text-align: center;
-}
-.Hero{
-    background-image: url("https://tse3.mm.bing.net/th?id=OIP.6LEscp0Bg2_Cgqq4ZCVz_QHaEJ&pid=Api&P=0&h=220");
-    min-height: 80vh;
-    background-position: center;
-   margin-top: 10px;
-    background-size: cover;
-
-}
-button{
-    background-color:#922121;
-    color:white;
-
-}
-.navigation-bar{
-    background-color: #922121;
-    color: white;
-
-}
-@media(max-width:700px){
-    .flex-row{
-        flex-direction: column;
-
-    }
-}
-.card-sm {
-    position: relative; /* Required for positioning the heading and paragraph */
-  }
-  
-  .card-sm img {
-    width: 100%; /* Make the image fill the width of the card */
-  }
-  
-  .card-sm h2 {
-    position: absolute; /* Required for positioning the heading */
-    top: 50%; /* Initially position the heading vertically in the middle */
-    left: 0;
-    width: 100%; /* Make the heading fill the width of the card */
-    text-align: center; /* Center the text horizontally */
-    transform: translateY(-50%); /* Vertically center the heading */
-    color: black; /* Change the color of the heading */
-    padding: 10px; /* Add some padding to the heading */
-   /* Add a semi-transparent background color to the heading */
-  }
-  
-  .card-sm:hover h2 {
-    transform: translateY(-50%); /* Keep the heading centered on hover */
-  }
-  
-  .card-sm p {
-    position: absolute; /* Required for positioning the paragraph */
-    bottom: 0; /* Initially position the paragraph at the bottom */
-    left: 0;
-    width: 100%; /* Make the paragraph fill the width of the card */
-    opacity: 0; /* Initially hide the paragraph */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Add a transition to the opacity and transform properties */
-    transform: translateY(100%); /* Initially translate the paragraph up by 100% */
-    color: #333; /* Set the initial color of the paragraph */
-  }
-  
-  .card-sm:hover p {
-    opacity: 1; /* Show the paragraph on hover */
-    transform: translateY(-30px); /* Move the paragraph back to its original position */
-    color: #fff; /* Change the color of the paragraph on hover */
-  }
-.card-sm h2,p{
-    text-align: center;
-}
-.car p,h2{
-    top:0;
-    left:0;
-bottom:-20px;
-   ;
-}
-    .row-last{
-        display:flex;
-        justify-content: center;
-    }
-   
-
-    .row{
-        flex-direction: column;
-    }
-    .flex{
-        flex-direction: column;
-    }
-    }
-button{
-    margin-top: 40px;
-    background-color: #922121;
-    color: white;
-    font-size: 18px;
-    border: 0.4px solid #F9C97B;
-
-    padding: 8px 12px;
-    
-    border-radius: 5px;
-}
-
-.flex-row {
-    display: flex;
-    justify-content: space-between;
-
-    margin: 0 20px;
-    padding:100px 0;
-  }
-  
-  .left-content {
-    flex-grow: 1; /* Make the left-content element take up more space */
-    padding: 0 80px; /* Add padding to the left and right sides */
-  }
-  
-  .right-content {
-    padding: 0 20px; /* Add padding to the left and right sides */
-  }
-  
-  @media (max-width: 768px) {
-    .flex-row {
-      flex-wrap: wrap; /* Allow the flex container to wrap on smaller screens */
-      justify-content: space-between; /* Still space elements apart */
-      margin: 0; /* Remove the margin on smaller screens */
-    }
-  
-    .left-content, .right-content {
-      flex-basis: 100%; /* Make each element take up 100% width on smaller screens */
-      padding: 20px; /* Add padding to the left and right sides */
-    }
-  }
-@media(max-width:700px){
-
-    .nav-middle{
-        display: none;
-    }
-}
-
-
-.left-content p{
     font-size: 25px;
-    line-height: 1.5;
-    margin-top: 10px;
     font-family: sans-serif;
+    padding: 30px;
 }
-.left-content h1{
-    font-size: 30px;
-    font-family: sans-serif;
-}
-
-.navigation-bar nav{
+.row{
     display: flex;
-padding: 2px;
-
-
-
     justify-content: center;
+    align-items: center;
 }
-
-nav ul li:hover{
-    color: #F9C97B;
+.first-content{
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    left: 50%;
 }
-.card p{
-
-}
-nav ul li{
-    cursor: pointer;
-    margin: 15px;
-    transition: 0.2s;
-    font-size: 18px;
-    font-family: sans-serif;
+.right p{
     display: inline-block;
-}
-.fa i{
     margin: 5px;
 }
-.nav-middle i{
-    margin: 20px;
-    font-size: 14px;
-    color: #922121;
-}
-.nav-middle img{
+.Hero{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.B0GATB7iNKPlkTks3paFfgHaHf&pid=Api&P=0&h=220");
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    min-height: 100vh;
 
 }
